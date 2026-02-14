@@ -20,20 +20,7 @@ public class Student {
     public int getStudentNumber(){return STUDENTNUMBER;}
     public int getContactNumber(){return CONTACTNUMBER;}
     public String getBirthday(){return BIRTHDAY;}
-
-    public Student(String firstName, String middleName, String lastName, int age, int yearLevel,
-                   String course, int section, int studentNumber, int contactNumber, String birthday){
-        this.FIRSTNAME = firstName;
-        this.MIDDLENAME = middleName;
-        this.LASTNAME = lastName;
-        this.AGE = age;
-        this.YEARLEVEL = yearLevel;
-        this.COURSE = course;
-        this.SECTION = section;
-        this.STUDENTNUMBER = studentNumber;
-        this.CONTACTNUMBER = contactNumber;
-        this.BIRTHDAY = birthday;
-    }
+    
     private Student(StudentBuilder builder){
         this.FIRSTNAME = builder.FIRSTNAME;
         this.MIDDLENAME = builder.MIDDLENAME;
