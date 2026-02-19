@@ -26,7 +26,7 @@ public class Student {
         this.MIDDLENAME = builder.MIDDLENAME;
         this.LASTNAME = builder.LASTNAME;
         this.AGE = builder.AGE;
-        this.YEARLEVEL = builder.AGE;
+        this.YEARLEVEL = builder.YEARLEVEL;
         this.COURSE = builder.COURSE;
         this.SECTION = builder.SECTION;
         this.STUDENTNUMBER = builder.STUDENTNUMBER;
