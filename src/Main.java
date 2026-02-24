@@ -6,7 +6,7 @@ public class Main {
         try (Scanner scanner = new Scanner(System.in)) {
             Repository repo = new Repository();
 
-            while (true) { // Wrapped in a loop so the menu keeps coming back
+            while (true) {
                 System.out.println("""
                         \n=========================
                         STUDENT SYSTEM
@@ -19,7 +19,7 @@ public class Main {
                         """);
                 System.out.print("Choice: ");
                 int myChoice = scanner.hasNextInt() ? scanner.nextInt() : 0;
-                scanner.nextLine(); // Consume newline
+                scanner.nextLine(); 
 
                 switch (myChoice) {
                     case 1:
